@@ -11,6 +11,9 @@ Erstelle eine Webseite, die dir eine ToDo-, Wunsch- oder Einkaufsliste (oder ein
 ## Wenn du nicht weiter weist
 Wenn du dir nicht sicher bist, wie du vorgehen sollst, versuche es schrittweise wie folgt, die Bewertung richtet sich dann danach, wie weit du gekommen bist:
 
+### Schritt 0:
+* Lege eine HTML (index.html) und eine JS Datei an. Lade die JS Datei im HTML und prüfe mit einer Consolenausgabe, ob die JS Datei richtig eingebunden ist.
+
 ### Schritt 1:
 * Lese so lange vom Nutzer mit prompt() Einträge ein, bis er auf "cancel"/"abbrechen" drückt (der von prompt zurückgegebene Wert ist dann `null`).
 * Gebe die eingelesenen Einträge nun auf der Konsole aus.
@@ -29,4 +32,10 @@ Wenn du dir nicht sicher bist, wie du vorgehen sollst, versuche es schrittweise 
 * Speichere die Einträge im Browser (localStorage oder indexedDB), und lade sie beim erneuten Öffnen der Webseite daraus.
 
 ## Bonuspunkte
-Bonuspunkte gibt es für besonders schöne Gestaltung und eigene Erweiterungen (je nach Komplexität, z.B. ermögliche nicht nur löschen, sondern auch Abhaken von Einträgen, lass den Nutzer auch Mengenangaben hinzufügen, ermögliche dem Nutzer zwischen light & dark theme zu wählen, denk dir selbst etwas aus!)
+Bonuspunkte gibt es für besonders schöne Gestaltung und eigene Erweiterungen (je nach Komplexität)
+
+### Ideen für Erweiterungen
+* ermögliche nicht nur löschen, sondern auch Abhaken von Einträgen
+* lass den Nutzer auch Mengenangaben hinzufügen
+* ermögliche dem Nutzer zwischen light & dark theme zu wählen, speichere die Auswahl
+* denk dir selbst etwas aus!
